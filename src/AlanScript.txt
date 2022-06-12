@@ -1,0 +1,63 @@
+intent('Hello', p => {
+    p.play('Hi there', 'Hi! I am Alan', "Hi! My name is Alan!");
+});
+
+intent(
+    'What does this website do?',
+    'What you can do?',
+    'What is Saathi?',
+    "Tell me the purpose of thi website.",
+    p => {
+        p.play(
+            'This website is like a portal to old aged people & needy women to take therapies & cure their mental health.',
+            'This website is a mental health portal where needy people can book therapists.',
+        );
+    },
+);
+
+intent(
+    'Is my message secure?',
+    'Will my message will remain a (secret|confidential?)',
+    p => {
+        p.play(
+            'Your message will remain absolutely anonymous!',
+            'Twilio"s service is encrypted! No third party applications have access to your data!',
+        );
+    },
+);
+
+intent(
+    'What are blogs section?',
+    'Tell me about Blogs.',
+    p => {
+        p.play(
+            'You can read about different blogs about Mental Health, Therapies & Psychology.',
+            'The blogs that our website offers is about Mental Health, Therapies & about Psychology.',
+        );
+    },
+);
+
+intent(
+    'Who are the therapists?',
+    'How do I book a therapist?',
+    'Can I take an appointment from the therapist?',
+    p => {
+        p.play(
+            'If you are feeling low, depressed or disturbed, therapists are there to help you. You can send a message to the therapists anonymously!',
+            'Therapists are there to help you when you are feeling low or depressed. You can book your appointment by send a message to the therapist you prefer!',
+        );
+    },
+);
+
+intent(
+    'Okay Thank You!',
+    'Thanks!',
+    'Thanks for your help!',
+    p => {
+        p.play(
+            'Welcome!',
+            'Take care!',
+            'No problem.'
+        );
+    },
+);
