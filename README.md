@@ -14,7 +14,7 @@ Saathi is a mental health portal where people suffering from mental health-relat
 
 ### Twilio's SMS API
 
-The user needs to write his/her message in the **message box**. For the demonstration purpose, we are netering the number as we are using Twilio's trial account.
+The user needs to write his/her message in the **message box**. For the demonstration purpose, we are entering the number as we are using Twilio's trial account.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/77505989/173244265-e585b982-d8b5-450e-9588-de2fbd4484dd.png" alt="Twilio Message" />
@@ -28,7 +28,7 @@ As soon as user clicks on `Send Message` Button, we receive a message of this ty
 
 ### Technologies behind Saathi
 
-The technologies that I have used to created Saathi are,
+The technologies that I have used to create Saathi are,
 - Frontend
     - React JS
     - Tailwind CSS
